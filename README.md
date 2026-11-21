@@ -23,9 +23,15 @@ The [A0 ERC report](docs/erc-a0.json) shows zero violations in KiCad 10.0.8. The
 
 ## Low-voltage test plan
 
+**E1 design assumption:** budget 20 mA per candle in normal operation and design the distributor for 50 mA continuous per output at either voltage (250 mA total; up to 1.125 W delivered at 4.5 V). This is available current, not current to force through a candle, a measured peak, or a fuse rating. The final supply must also account for conversion losses, temperature and transient response.
+
+Two commercial examples inform the nominal assumption. The [Goobay 64786 manual](https://www.pollin.de/media/fa/6f/01/1742196926/D521850-B.pdf) specifies one LED per candle and 0.06 W/LED at a 3.0 V operating voltage. The [Goobay 74368 manual](https://www.wentronic.com/media/perfion/perfion-product/74368_Bedienungsanleitung%23Manual.pdf) specifies 0.06 W/LED and 4.5 V operation. Dividing those figures by the respective supply voltage gives 20 mA and 13.3 mA as power equivalents, **not** measured battery-terminal currents. Neither figure establishes startup peaks or covers moving-flame and multi-LED models. Use reference loads until each candle model is characterized; coin-cell candles may rely on cell impedance and are not qualified for direct connection.
+
 | Setpoint | Load per output | Current per output | Total current for five outputs | Power per load |
 |---|---:|---:|---:|---:|
 | 3.0 V | 150 Ω | 20.0 mA | 100.0 mA | 0.060 W |
+| 3.0 V | 60 Ω | 50.0 mA | 250.0 mA | 0.150 W |
+| 4.5 V | 225 Ω | 20.0 mA | 100.0 mA | 0.090 W |
 | 4.5 V | 91 Ω | 49.45 mA | 247.25 mA | 0.223 W |
 
 The figures follow from I = V/R and P = V²/R. Use 1% resistors rated for at least 0.5 W, with adequate ventilation and appropriate derating. These are reference loads, not measured candle characteristics. The test plan does not cover 6 V.
