@@ -1,0 +1,3 @@
+irm03: [37. 24. 15.] mm; 13320 mm³; one closed, consistently wound solid; diagonal 44.10 mm
+shelly: [34. 29. 16.] mm; 15776 mm³; one closed, consistently wound solid; diagonal 44.69 mm
+PASS: SVG physical scale and centred section match STL dimensions; 31 mm stack, 33 mm unallocated in assumed section.

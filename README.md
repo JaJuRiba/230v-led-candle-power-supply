@@ -43,6 +43,10 @@ The figures follow from I = V/R and P = V²/R. Use 1% resistors rated for at lea
 
 ## Flush-mount box fit study
 
+[Print the two M0 fit gauges and follow the loose-box test](mechanical/README.md). Digitally checked; not yet physically tested. These blocks represent only the relay and module bodies, not the complete assembly.
+
+![M0 centre section through the two dummy bodies](mechanical/m0-section.svg)
+
 The reference box is the **KAISER UP¹ 1555-05** (EAN 4013456594937). The [KAISER data sheet](https://www.kaisergroup.com/assets/media/21/21577/Datasheet_1555-05_%28EAN_4013456594937%29_en_KAISER.pdf) lists a 66 mm product depth, a 60 mm diameter device opening, an 82 mm diameter wall cutout, and four groups of three screw bosses. The 82 mm dimension is not an internal diameter. [Elektrikshop](https://www.elektrikshop.de/kaiser-unterputzdosen-up1-1555-05-tief.html) lists 65 mm of internal depth; that is not the usable space after adding a cover, terminals, and wiring.
 
 The reported clear width and usable depth are approximately **54 mm and 64 mm**, respectively. The [to-scale preliminary fit study](fit-study-1555-05.svg) assumes an ideal cylinder; a 54 mm clear diameter across its full depth has not been established. The [KAISER CAD portal entry](https://kaiser.partcommunity.com/?languageIso=en&catalog=kaiser&part=1555-05) is available, but the model download was blocked in this environment.

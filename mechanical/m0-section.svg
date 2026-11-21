@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82mm" height="96mm" viewBox="0 0 82 96" font-family="sans-serif" font-size="2.8" fill="#213240">
+<title>M0 | Centre section of loose stack, X–Z (mm)</title>
+<text x="5" y="6" font-size="4">M0 / Centre section · X–Z</text>
+<text x="5" y="12">Dashed: assumed 54 wide × 64 deep (mm)</text>
+<rect id="screen" x="8" y="17" width="54" height="64" fill="none" stroke="#657684" stroke-width="0.3" stroke-dasharray="1 1"/>
+<text x="10" y="22">Opening plane</text>
+<text x="10" y="36.4999998">33 nominal / unallocated</text>
+<rect id="irm03" x="16.4999999" y="65.9999998" width="37.0000002" height="15.000000200000002" fill="#dbebf8" stroke="#263743" stroke-width="0.25"/><text x="35.0" y="74.4999999" text-anchor="middle">IRM03 · 37 × 15</text><rect id="shelly" x="17.9999999" y="49.999999599999995" width="34.0000002" height="16.000000200000002" fill="#fae3bd" stroke="#263743" stroke-width="0.25"/><text x="35.0" y="58.9999997" text-anchor="middle">SHELLY · 34 × 16</text>
+<text x="5" y="86">Back plane · no cover, bosses or wiring modeled</text>
+<path d="M5 91h10" stroke="#263743" stroke-width="0.6"/><text x="17" y="92">10 mm at 100% · not a box drawing</text>
+</svg>
