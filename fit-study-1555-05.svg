@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180mm" height="116mm" viewBox="0 0 180 116" role="img" aria-labelledby="title desc">
+  <title id="title">KAISER 1555-05 – preliminary fit study</title>
+  <desc id="desc">Idealized envelope, 54 mm diameter and 64 mm depth. Shelly and power-supply bounding boxes only; no actual box profile or proof of fit.</desc>
+  <rect width="180" height="116" fill="white"/>
+  <g font-family="sans-serif" fill="#152438">
+    <text x="8" y="10" font-size="5" font-weight="bold">KAISER 1555-05 · preliminary fit study</text>
+    <text x="8" y="17" font-size="3.1">Approx. 54 mm clear width / 64 mm usable depth (user measurements)</text>
+    <text x="9" y="25" font-size="3.3" font-weight="bold">Top view: idealized Ø 54 mm</text>
+    <text x="81" y="25" font-size="3.3" font-weight="bold">Side view: 64 mm depth</text>
+    <circle cx="38" cy="60" r="27" stroke="#465a71" stroke-width="0.45" stroke-dasharray="2 1" fill="none"/>
+    <rect x="21" y="45.5" width="34" height="29" stroke="#146c99" stroke-width="0.5" fill="none"/>
+    <rect x="19.5" y="48" width="37" height="24" stroke="#a35713" stroke-width="0.5" fill="none"/>
+    <text x="11" y="94" font-size="3" fill="#146c99">Shelly 1 Mini Gen3: 34 × 29 × 16 mm</text>
+    <text x="11" y="99" font-size="3" fill="#a35713">IRM-03 PCB-mount version: 37 × 24 × 15 mm</text>
+    <rect x="83" y="30" width="54" height="64" stroke="#465a71" stroke-width="0.45" stroke-dasharray="2 1" fill="none"/>
+    <rect x="93" y="30" width="34" height="16" stroke="#146c99" stroke-width="0.5" fill="#e9f5fc"/>
+    <rect x="91.5" y="46" width="37" height="15" stroke="#a35713" stroke-width="0.5" fill="#fff1e0"/>
+    <text x="110" y="39.5" text-anchor="middle" font-size="3" fill="#146c99">16 mm</text>
+    <text x="110" y="55" text-anchor="middle" font-size="3" fill="#a35713">15 mm</text>
+    <text x="110" y="75" text-anchor="middle" font-size="3.1">33 mm nominal</text>
+    <text x="110" y="80" text-anchor="middle" font-size="2.8">unallocated depth</text>
+    <text x="141" y="45" font-size="2.8">Bounding boxes</text>
+    <text x="141" y="50" font-size="2.8">for sizing only.</text>
+    <text x="141" y="55" font-size="2.8">Not mounting positions.</text>
+    <text x="8" y="107" font-size="3.1" font-weight="bold">Not modeled: internal profile, screw bosses, PCB, enclosure, terminals, or wiring.</text>
+    <text x="8" y="112" font-size="3.1">Not an installation approval. The outlines print at 1:1 scale at 100%.</text>
+  </g>
+</svg>

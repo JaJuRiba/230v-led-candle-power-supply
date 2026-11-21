@@ -1,0 +1,2 @@
+# Preserve the byte-for-byte KiCad SVG export, including its whitespace.
+/docs/230v-led-candle-power-supply.svg -text -whitespace

@@ -1,0 +1,372 @@
+(kicad_sch (version 20260306) (generator "fixture_design") (generator_version "10.0")
+(uuid "49f17904-8c43-5a34-9d92-8253afd36f5c") (paper "A4")
+(title_block (title "LED Candle Power Supply: DC Distributor") (rev "A0") (comment 1 "A0 INPUT: 3.0 / 4.5 V DC only. Never connect to mains."))
+(lib_symbols (symbol "Device:Fuse"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "F"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at -1.905 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "fuse"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "*Fuse*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Fuse_0_1"
+			(rectangle
+				(start -0.762 -2.54)
+				(end 0.762 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Fuse_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "Connector_Generic:Conn_01x02"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x02_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))
+(text "A0 | DC distributor for a current-limited bench supply" (at 27.94 24.13 0) (effects (font (size 3 3)) (justify left)) (uuid "6e41bc31-0ffa-5fce-a593-8ba7927f8c2c"))
+(text "Set the bench supply to 3.0 V or 4.5 V. No on-board regulator." (at 27.94 30.48 0) (effects (font (size 1.5 1.5)) (justify left)) (uuid "7e373af8-48f1-59ea-8f53-c62a20cef699"))
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 73.66 48.26 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "7a1807b6-3883-5623-a940-e2f4810d18a4") (property "Reference" "J1" (at 77.47 44.45 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "LAB_DC" (at 77.47 46.99 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Footprint" "" (at 73.66 48.26 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Datasheet" "" (at 73.66 48.26 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Description" "" (at 73.66 48.26 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (pin "1" (uuid "080a1bb4-da9c-5f14-b932-d052888e241f")) (pin "2" (uuid "935d4cc5-b8c3-577c-9e39-f1bc3b54a37e")) (instances (project "230v-led-candle-power-supply" (path "/49f17904-8c43-5a34-9d92-8253afd36f5c" (reference "J1") (unit 1)))))
+(wire (pts (xy 44.45 48.26) (xy 68.58 48.26)) (stroke (width 0) (type default)) (uuid "495a47f0-f1a1-5c33-9bd0-d69a60b162d1"))
+(label "LAB_VOUT" (at 44.45 48.26 0) (effects (font (size 1.15 1.15)) (justify left bottom)) (uuid "858769f7-5fb7-5900-ac0c-161dacfb5102"))
+(wire (pts (xy 44.45 50.8) (xy 68.58 50.8)) (stroke (width 0) (type default)) (uuid "92064a5e-c19c-5ec2-8cab-92bcf57d1e9c"))
+(label "DC_RETURN" (at 44.45 50.8 0) (effects (font (size 1.15 1.15)) (justify left bottom)) (uuid "b3b46a20-86ef-51c4-9727-e8ffb995a98b"))
+(text "All connectors: pin 1 positive, pin 2 return. Isolated low-voltage DC only." (at 27.94 63.5 0) (effects (font (size 1.5 1.5)) (justify left)) (uuid "18ff7992-a0c7-5309-915e-14e6c1d3475b"))
+(symbol (lib_id "Device:Fuse") (at 44.45 96.52 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "612cd7bc-7b37-5122-b163-e13f4bdaa7a8") (property "Reference" "F1" (at 46.99 92.71 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "TBD" (at 46.99 95.25 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Footprint" "" (at 44.45 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Datasheet" "" (at 44.45 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Description" "" (at 44.45 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (pin "1" (uuid "3c7d5843-400c-50a1-b431-c7dd3cb48f50")) (pin "2" (uuid "e99d2c30-c0b4-5791-83b2-0e52b470bb73")) (instances (project "230v-led-candle-power-supply" (path "/49f17904-8c43-5a34-9d92-8253afd36f5c" (reference "F1") (unit 1)))))
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 55.88 109.22 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "6af366b9-5241-506b-898f-05bc3b9dfb06") (property "Reference" "J2" (at 58.42 105.41 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "OUT_1" (at 58.42 107.95 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Footprint" "" (at 55.88 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Datasheet" "" (at 55.88 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Description" "" (at 55.88 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (pin "1" (uuid "65b3de84-ac30-5ef6-953d-8cbc561ac06b")) (pin "2" (uuid "f0c80617-5fac-53f8-87a3-7bd9418efba1")) (instances (project "230v-led-candle-power-supply" (path "/49f17904-8c43-5a34-9d92-8253afd36f5c" (reference "J2") (unit 1)))))
+(wire (pts (xy 29.21 86.36) (xy 44.45 86.36)) (stroke (width 0) (type default)) (uuid "16e225a3-4e11-50dd-86cc-7738afa8c9a1"))
+(wire (pts (xy 44.45 86.36) (xy 44.45 92.71)) (stroke (width 0) (type default)) (uuid "f24ebd23-2e29-5742-8f75-b6cf012212d5"))
+(label "LAB_VOUT" (at 29.21 86.36 0) (effects (font (size 1.15 1.15)) (justify left bottom)) (uuid "47dc6e3d-a74d-53b0-af91-84543021370b"))
+(wire (pts (xy 44.45 100.33) (xy 44.45 109.22)) (stroke (width 0) (type default)) (uuid "12c5c9d0-ce92-5fe0-8cb9-5adbd5864846"))
+(wire (pts (xy 44.45 109.22) (xy 50.8 109.22)) (stroke (width 0) (type default)) (uuid "a95f7ce6-9ca7-5a07-92bb-1de80e89ca3c"))
+(wire (pts (xy 29.21 111.76) (xy 50.8 111.76)) (stroke (width 0) (type default)) (uuid "bdc3fac3-837b-5ec2-8b2d-448110f595f2"))
+(label "DC_RETURN" (at 29.21 111.76 0) (effects (font (size 1.15 1.15)) (justify left bottom)) (uuid "d97d8b4e-2ff7-5782-945a-5ffe87399145"))
+(symbol (lib_id "Device:Fuse") (at 95.25 96.52 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "3ea984f4-6ae3-5bb1-88ad-84bdee4cd35e") (property "Reference" "F2" (at 97.79 92.71 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "TBD" (at 97.79 95.25 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Footprint" "" (at 95.25 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Datasheet" "" (at 95.25 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Description" "" (at 95.25 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (pin "1" (uuid "a84bf64d-09b2-532a-83bc-8d6a6018dc4d")) (pin "2" (uuid "1b03da8e-6ac6-596e-a7e7-7d0565e118af")) (instances (project "230v-led-candle-power-supply" (path "/49f17904-8c43-5a34-9d92-8253afd36f5c" (reference "F2") (unit 1)))))
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 106.68 109.22 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "281fdf75-5888-5f35-905f-e3ec81e4b2c0") (property "Reference" "J3" (at 109.22 105.41 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "OUT_2" (at 109.22 107.95 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Footprint" "" (at 106.68 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Datasheet" "" (at 106.68 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Description" "" (at 106.68 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (pin "1" (uuid "067c7407-b62d-508a-8eba-d9444c8bef12")) (pin "2" (uuid "2144035f-e865-541a-8bff-d221adde13b2")) (instances (project "230v-led-candle-power-supply" (path "/49f17904-8c43-5a34-9d92-8253afd36f5c" (reference "J3") (unit 1)))))
+(wire (pts (xy 80.01 86.36) (xy 95.25 86.36)) (stroke (width 0) (type default)) (uuid "3fa693e0-2708-542a-88c6-1278eabc5ead"))
+(wire (pts (xy 95.25 86.36) (xy 95.25 92.71)) (stroke (width 0) (type default)) (uuid "db96d22f-28eb-5e62-8e24-7f985f90cc9d"))
+(label "LAB_VOUT" (at 80.01 86.36 0) (effects (font (size 1.15 1.15)) (justify left bottom)) (uuid "a86cf46e-a626-5e9c-bc70-5f803906871c"))
+(wire (pts (xy 95.25 100.33) (xy 95.25 109.22)) (stroke (width 0) (type default)) (uuid "a44f5e14-85dc-5550-9de6-8f82e710574a"))
+(wire (pts (xy 95.25 109.22) (xy 101.6 109.22)) (stroke (width 0) (type default)) (uuid "bde34a40-8ffe-5ee8-aabb-f2955713e027"))
+(wire (pts (xy 80.01 111.76) (xy 101.6 111.76)) (stroke (width 0) (type default)) (uuid "63c4c221-beb9-5d1e-b470-c40a1b780f01"))
+(label "DC_RETURN" (at 80.01 111.76 0) (effects (font (size 1.15 1.15)) (justify left bottom)) (uuid "f7231416-7b2a-58ff-b7ba-39036f5fa146"))
+(symbol (lib_id "Device:Fuse") (at 146.05 96.52 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "1ce11bd8-e1c1-5c03-826c-bfe66292f1ad") (property "Reference" "F3" (at 148.59 92.71 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "TBD" (at 148.59 95.25 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Footprint" "" (at 146.05 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Datasheet" "" (at 146.05 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Description" "" (at 146.05 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (pin "1" (uuid "8c509a9c-2f64-5809-8fc6-d5ed05a11b8e")) (pin "2" (uuid "d6adca68-108d-5497-84bd-50c0103a8fb5")) (instances (project "230v-led-candle-power-supply" (path "/49f17904-8c43-5a34-9d92-8253afd36f5c" (reference "F3") (unit 1)))))
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 157.48 109.22 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "fe590f22-4749-5b46-b4c2-b3520d6d6e8c") (property "Reference" "J4" (at 160.02 105.41 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "OUT_3" (at 160.02 107.95 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Footprint" "" (at 157.48 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Datasheet" "" (at 157.48 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Description" "" (at 157.48 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (pin "1" (uuid "f090a82f-4a08-57ed-9d63-65ee578a4605")) (pin "2" (uuid "6a76a588-a690-5de6-b77b-1646f0c68b0b")) (instances (project "230v-led-candle-power-supply" (path "/49f17904-8c43-5a34-9d92-8253afd36f5c" (reference "J4") (unit 1)))))
+(wire (pts (xy 130.81 86.36) (xy 146.05 86.36)) (stroke (width 0) (type default)) (uuid "160c6251-cff3-51d8-bc03-7637bb13339e"))
+(wire (pts (xy 146.05 86.36) (xy 146.05 92.71)) (stroke (width 0) (type default)) (uuid "d52e9b93-9fac-5807-90df-b5278bea5b13"))
+(label "LAB_VOUT" (at 130.81 86.36 0) (effects (font (size 1.15 1.15)) (justify left bottom)) (uuid "d35840aa-3eee-5dfa-a9d6-f2b8d1a32a37"))
+(wire (pts (xy 146.05 100.33) (xy 146.05 109.22)) (stroke (width 0) (type default)) (uuid "6104a9a4-24f9-5584-b5c2-7351f2f4ef73"))
+(wire (pts (xy 146.05 109.22) (xy 152.4 109.22)) (stroke (width 0) (type default)) (uuid "2a50dfdd-a85c-5f5a-a775-a554259c3934"))
+(wire (pts (xy 130.81 111.76) (xy 152.4 111.76)) (stroke (width 0) (type default)) (uuid "2e044934-1b77-5cf3-a464-cd8942e5103b"))
+(label "DC_RETURN" (at 130.81 111.76 0) (effects (font (size 1.15 1.15)) (justify left bottom)) (uuid "0d6ba373-23c3-50ca-bf7d-03a70bef4020"))
+(symbol (lib_id "Device:Fuse") (at 196.85 96.52 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "f843fccc-3194-5dbe-81a0-59d44af15840") (property "Reference" "F4" (at 199.39 92.71 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "TBD" (at 199.39 95.25 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Footprint" "" (at 196.85 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Datasheet" "" (at 196.85 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Description" "" (at 196.85 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (pin "1" (uuid "0b90ed94-8005-54c7-88f9-7de3ecf61f21")) (pin "2" (uuid "04eeb75f-9024-5336-b966-b5c470477e18")) (instances (project "230v-led-candle-power-supply" (path "/49f17904-8c43-5a34-9d92-8253afd36f5c" (reference "F4") (unit 1)))))
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 208.28 109.22 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "8911c555-57eb-5b2b-b48c-f18731c4777d") (property "Reference" "J5" (at 210.82 105.41 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "OUT_4" (at 210.82 107.95 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Footprint" "" (at 208.28 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Datasheet" "" (at 208.28 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Description" "" (at 208.28 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (pin "1" (uuid "6db9e2b3-a35e-56ee-aa50-0f42976067e8")) (pin "2" (uuid "fcee10f2-e42b-5a7c-9fba-73aa17dfdd18")) (instances (project "230v-led-candle-power-supply" (path "/49f17904-8c43-5a34-9d92-8253afd36f5c" (reference "J5") (unit 1)))))
+(wire (pts (xy 181.61 86.36) (xy 196.85 86.36)) (stroke (width 0) (type default)) (uuid "9710ed89-b622-566b-911a-532af654b028"))
+(wire (pts (xy 196.85 86.36) (xy 196.85 92.71)) (stroke (width 0) (type default)) (uuid "87d53bfa-8a8c-5321-9169-c33fb3e2c811"))
+(label "LAB_VOUT" (at 181.61 86.36 0) (effects (font (size 1.15 1.15)) (justify left bottom)) (uuid "1b4d36c2-b77e-5513-8b71-c44dbfceb1cd"))
+(wire (pts (xy 196.85 100.33) (xy 196.85 109.22)) (stroke (width 0) (type default)) (uuid "f64b721b-5c6b-58c1-8ff8-23ee89b65258"))
+(wire (pts (xy 196.85 109.22) (xy 203.2 109.22)) (stroke (width 0) (type default)) (uuid "46ee2173-69de-560b-9db4-cb989b0baa8b"))
+(wire (pts (xy 181.61 111.76) (xy 203.2 111.76)) (stroke (width 0) (type default)) (uuid "55d6a3b9-7bff-558a-bc81-283ff87121a9"))
+(label "DC_RETURN" (at 181.61 111.76 0) (effects (font (size 1.15 1.15)) (justify left bottom)) (uuid "6b0b30cc-baa4-5223-9757-47e863cae7f8"))
+(symbol (lib_id "Device:Fuse") (at 247.65 96.52 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "e17e209f-ea7d-5639-b786-9fe875ba7911") (property "Reference" "F5" (at 250.19 92.71 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "TBD" (at 250.19 95.25 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Footprint" "" (at 247.65 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Datasheet" "" (at 247.65 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Description" "" (at 247.65 96.52 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (pin "1" (uuid "2ba42186-7a49-51a0-9a12-0a15ea903523")) (pin "2" (uuid "3b891d6b-338a-51e5-8edb-d938c16e1cd2")) (instances (project "230v-led-candle-power-supply" (path "/49f17904-8c43-5a34-9d92-8253afd36f5c" (reference "F5") (unit 1)))))
+(symbol (lib_id "Connector_Generic:Conn_01x02") (at 259.08 109.22 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "f1f7dc65-7712-55f1-9779-222bea2253e4") (property "Reference" "J6" (at 261.62 105.41 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Value" "OUT_5" (at 261.62 107.95 0) (effects (font (size 1.27 1.27)) (justify left)))(property "Footprint" "" (at 259.08 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Datasheet" "" (at 259.08 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left)))(property "Description" "" (at 259.08 109.22 0) (hide yes) (effects (font (size 1.27 1.27)) (justify left))) (pin "1" (uuid "525340ad-ec4a-57dc-b438-f58976bf4912")) (pin "2" (uuid "e424d4ac-27e0-52ff-950f-965a4f079519")) (instances (project "230v-led-candle-power-supply" (path "/49f17904-8c43-5a34-9d92-8253afd36f5c" (reference "J6") (unit 1)))))
+(wire (pts (xy 232.41 86.36) (xy 247.65 86.36)) (stroke (width 0) (type default)) (uuid "ad658bbb-eac0-5b0c-bca1-bb6b5e088bf8"))
+(wire (pts (xy 247.65 86.36) (xy 247.65 92.71)) (stroke (width 0) (type default)) (uuid "f94c36bd-f74c-5fc5-b5fc-c246e4e488a6"))
+(label "LAB_VOUT" (at 232.41 86.36 0) (effects (font (size 1.15 1.15)) (justify left bottom)) (uuid "166e3a99-60ed-59a5-bca5-d7fe03379c3a"))
+(wire (pts (xy 247.65 100.33) (xy 247.65 109.22)) (stroke (width 0) (type default)) (uuid "babf861e-39cb-589a-8e23-d52d3f5d8777"))
+(wire (pts (xy 247.65 109.22) (xy 254 109.22)) (stroke (width 0) (type default)) (uuid "e1e4606d-cb11-5e7a-8f1c-3965218cc8b4"))
+(wire (pts (xy 232.41 111.76) (xy 254 111.76)) (stroke (width 0) (type default)) (uuid "310d0b48-e5a3-5240-ad92-d020af3852b7"))
+(label "DC_RETURN" (at 232.41 111.76 0) (effects (font (size 1.15 1.15)) (justify left bottom)) (uuid "96a04f9f-e5b6-5ac4-bba9-d6aac51c43a0"))
+(text "External reference load per output: 150 ohms at 3.0 V or 91 ohms at 4.5 V." (at 27.94 137.16 0) (effects (font (size 1.5 1.5)) (justify left)) (uuid "752ce013-fcc1-560b-86ff-d0af4da7bfc9"))
+(text "F1–F5 mark proposed branch protection. Parts and selective operation are unverified." (at 27.94 143.51 0) (effects (font (size 1.5 1.5)) (justify left)) (uuid "ed84c78b-c5b8-5fce-a195-127a7dc2f74f"))
+(text "No regulator, overvoltage protection, or reverse-polarity protection. Do not build or connect candles." (at 27.94 149.86 0) (effects (font (size 1.5 1.5)) (justify left)) (uuid "f5b08a1a-1dab-52e8-b90d-eb9d61dd6843"))
+(sheet_instances (path "/" (page "1")))
+(embedded_fonts no)
+)

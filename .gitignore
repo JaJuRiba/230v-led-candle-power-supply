@@ -1,0 +1,11 @@
+*.kicad_prl
+~*.lck
+*-backups/
+*.kicad_sch-bak
+*.kicad_pcb-bak
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.pem
+*.key
