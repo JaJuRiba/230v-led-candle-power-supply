@@ -13,7 +13,13 @@ flowchart LR
 
 This diagram describes the V1 goal. The A0 schematic below covers only the DC distributor.
 
-## KiCad schematic — revision A0
+## Current schematic — E1 low-voltage bench prototype
+
+[Open the editable E1 project, BOM and bench test procedure](hardware/e1/README.md). Unlike A0, E1 takes **6.10 V nominal isolated bench DC**, regulates it to a shared 3.0 or 4.5 V, and limits current independently on five outputs. No mains input or independent overvoltage cutoff. Schematic only; not build-qualified.
+
+![E1 schematic: regulator and five current-limited outputs](hardware/e1/preview/e1.svg)
+
+## Earlier KiCad schematic — revision A0
 
 The [editable DC distributor schematic](230v-led-candle-power-supply.kicad_sch) targets KiCad 10.0.8. J1 receives 3.0 V or 4.5 V directly from an isolated, current-limited bench supply. F1–F5 show where branch protection is intended; no fuses have been selected or approved. A0 does not implement voltage regulation, overvoltage protection, or reverse-polarity protection. It has not been built or tested with candles.
 
@@ -43,7 +49,7 @@ The figures follow from I = V/R and P = V²/R. Use 1% resistors rated for at lea
 
 ## Flush-mount box fit study
 
-[Print the two M0 fit gauges and follow the loose-box test](mechanical/README.md). Digitally checked; not yet physically tested. These blocks represent only the relay and module bodies, not the complete assembly.
+[Print the two M0 fit gauges and follow the loose-box test](mechanical/README.md). Digitally checked. In one physical trial, the operator reported that the printed bodies went in loosely in the tested orientation. Remaining depth and fit with the cover were not measured. These blocks represent only the relay and module bodies, not the complete assembly.
 
 ![M0 centre section through the two dummy bodies](mechanical/m0-section.svg)
 

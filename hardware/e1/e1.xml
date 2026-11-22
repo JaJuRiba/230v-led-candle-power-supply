@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>e1.kicad_sch</source>
+    <date>2026-11-22T21:35:25</date>
+    <tool>Eeschema 10.0.8</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>E1 | Five-output bench supply</title>
+        <company/>
+        <rev>E1</rev>
+        <date/>
+        <source>e1.kicad_sch</source>
+        <comment number="1" value="External isolated DC only - not for mains"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1 µF / 25 V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C105K3RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="C" description=""/>
+      <property name="MPN" value="C0805C105K3RACTU"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcc058b6-3c60-5670-900c-612e36114ab5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>22 µF / 16 V</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</footprint>
+      <fields>
+        <field name="MPN">T491C226K016AT</field>
+        <field name="Footprint">Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="Cpol" description=""/>
+      <property name="MPN" value="T491C226K016AT"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0d605bc8-124a-5ad8-8852-341a07520d5d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>1 µF / 25 V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C105K3RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="C" description=""/>
+      <property name="MPN" value="C0805C105K3RACTU"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>850047c1-336a-5151-9f3a-e079039aed26</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>1 µF / 25 V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C105K3RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="C" description=""/>
+      <property name="MPN" value="C0805C105K3RACTU"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6eb5058d-beaf-5c0f-bb14-5012b2ac2e33</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>1 µF / 25 V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C105K3RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="C" description=""/>
+      <property name="MPN" value="C0805C105K3RACTU"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e11ebd4-8d10-5665-af66-3232e5f4e796</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>1 µF / 25 V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C105K3RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="C" description=""/>
+      <property name="MPN" value="C0805C105K3RACTU"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac40d469-9a68-5e36-a777-796817297a74</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>1 µF / 25 V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">C0805C105K3RACTU</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="C" description=""/>
+      <property name="MPN" value="C0805C105K3RACTU"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d5375a1-aa40-5bd1-8cec-d6f12d5fbdcd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>LAB INPUT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">Samtec TSW-102-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="BenchInput" description=""/>
+      <property name="MPN" value="Samtec TSW-102-07-G-S"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf8d4d15-3d3d-5f2c-b750-d394e4cb6e5d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>OUT 1</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">Samtec TSW-102-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="BranchOutput" description=""/>
+      <property name="MPN" value="Samtec TSW-102-07-G-S"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc1cb5fe-5573-5962-b829-d68737bb6144</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>OUT 2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">Samtec TSW-102-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="BranchOutput" description=""/>
+      <property name="MPN" value="Samtec TSW-102-07-G-S"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e3055f1-600f-5086-987d-999a6a679266</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>OUT 3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">Samtec TSW-102-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="BranchOutput" description=""/>
+      <property name="MPN" value="Samtec TSW-102-07-G-S"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9b3afc4-dae4-5d75-98e3-a94aaa8ceb32</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>OUT 4</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">Samtec TSW-102-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="BranchOutput" description=""/>
+      <property name="MPN" value="Samtec TSW-102-07-G-S"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dc5a469-5ecc-5f43-8284-2cafd4881131</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>OUT 5</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">Samtec TSW-102-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="BranchOutput" description=""/>
+      <property name="MPN" value="Samtec TSW-102-07-G-S"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb9591c0-ed88-5743-ad18-99ec29d51994</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP1">
+      <value>4.5 V SELECT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="MPN">Samtec TSW-102-07-G-S</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="Shunt" description=""/>
+      <property name="MPN" value="Samtec TSW-102-07-G-S"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>894ed4f2-3a4e-56f5-ab25-39b3ab9bb25e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>120 Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">Vishay TNPW0805120RBETA</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="R" description=""/>
+      <property name="MPN" value="Vishay TNPW0805120RBETA"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1df2df87-c792-52c1-93f7-867291a2410c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>167 Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">Vishay TNPW0805167RBETY</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="R" description=""/>
+      <property name="MPN" value="Vishay TNPW0805167RBETY"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e928e083-7604-57d7-93b5-dedd7a03fb94</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>140 Ω</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">Vishay TNPW0805140RBEEN</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="R" description=""/>
+      <property name="MPN" value="Vishay TNPW0805140RBEEN"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b2cd5b9b-fb53-51c7-917d-1ce308f813c2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>210 kΩ / 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">Yageo RC0805FR-07210KL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="R" description=""/>
+      <property name="MPN" value="Yageo RC0805FR-07210KL"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>349fc370-6c78-57c3-9f51-4b50e562719a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>210 kΩ / 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">Yageo RC0805FR-07210KL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="R" description=""/>
+      <property name="MPN" value="Yageo RC0805FR-07210KL"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc967fb1-6e88-59f0-927e-88347bdb5a04</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>210 kΩ / 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">Yageo RC0805FR-07210KL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="R" description=""/>
+      <property name="MPN" value="Yageo RC0805FR-07210KL"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08bdd4bf-b9f8-5ad4-8e5e-5995e3850da4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>210 kΩ / 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">Yageo RC0805FR-07210KL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="R" description=""/>
+      <property name="MPN" value="Yageo RC0805FR-07210KL"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54336aac-9c0d-5fac-9939-5076e9a1ff2f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>210 kΩ / 1%</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">Yageo RC0805FR-07210KL</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="R" description=""/>
+      <property name="MPN" value="Yageo RC0805FR-07210KL"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>749c8122-5e4e-5092-88c9-128dbb25f472</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>LD1117V</value>
+      <footprint>Package_TO_SOT_THT:TO-220-3_Vertical</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/ld1117.pdf</datasheet>
+      <fields>
+        <field name="MPN">LD1117V</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/ld1117.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="LD1117V" description=""/>
+      <property name="MPN" value="LD1117V"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a95bdeff-1cf9-5904-b691-85122830b96c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>TPS2553DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps2553.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS2553DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps2553.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="TPS2553DBVR" description=""/>
+      <property name="MPN" value="TPS2553DBVR"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b929b7b9-1885-5374-a312-ef40ed4d6acc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>TPS2553DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps2553.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS2553DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps2553.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="TPS2553DBVR" description=""/>
+      <property name="MPN" value="TPS2553DBVR"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86dea26b-3d0d-5643-8f85-7b641fcb7470</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>TPS2553DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps2553.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS2553DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps2553.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="TPS2553DBVR" description=""/>
+      <property name="MPN" value="TPS2553DBVR"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aeb27c47-5670-5c86-8feb-71af0fa637bd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>TPS2553DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps2553.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS2553DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps2553.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="TPS2553DBVR" description=""/>
+      <property name="MPN" value="TPS2553DBVR"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b61d764-ded8-51ad-85a8-2abaffeeb62d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>TPS2553DBVR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps2553.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS2553DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps2553.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="E1" part="TPS2553DBVR" description=""/>
+      <property name="MPN" value="TPS2553DBVR"/>
+      <property name="Sheetname" value="e1"/>
+      <property name="Sheetfile" value="e1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c44764ce-f3be-5bd9-9853-f57138767b1e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="E1" part="BenchInput">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">BenchInput</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="power_out"/>
+        <pin num="2" name="RET" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="E1" part="BranchOutput">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">BranchOutput</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="RET" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="E1" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="E1" part="Cpol">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Cpol</field>
+        <field name="Footprint">Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="E1" part="LD1117V">
+      <docs>https://www.st.com/resource/en/datasheet/ld1117.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117V</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/ld1117.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="OUT" type="power_out"/>
+        <pin num="3" name="IN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="E1" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="E1" part="Shunt">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Shunt</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="E1" part="TPS2553DBVR">
+      <docs>https://www.ti.com/lit/ds/symlink/tps2553.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS2553DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps2553.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="~{FAULT}" type="open_collector"/>
+        <pin num="5" name="ILIM" type="output"/>
+        <pin num="6" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="E1">
+      <uri>${KIPRJMOD}/E1.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ADJ" class="Default">
+      <node ref="JP1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="ADJ_1" pintype="input"/>
+    </net>
+    <net code="2" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="RET_2" pintype="power_out"/>
+      <node ref="J2" pin="2" pinfunction="RET_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="RET_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="RET_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="RET_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="RET_2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U5" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="3" name="/LIM1" class="Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="ILIM_5" pintype="output"/>
+    </net>
+    <net code="4" name="/LIM2" class="Default">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="ILIM_5" pintype="output"/>
+    </net>
+    <net code="5" name="/LIM3" class="Default">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="ILIM_5" pintype="output"/>
+    </net>
+    <net code="6" name="/LIM4" class="Default">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="ILIM_5" pintype="output"/>
+    </net>
+    <net code="7" name="/LIM5" class="Default">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="ILIM_5" pintype="output"/>
+    </net>
+    <net code="8" name="/OUT1" class="Default">
+      <node ref="J2" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="OUT_6" pintype="power_out"/>
+    </net>
+    <net code="9" name="/OUT2" class="Default">
+      <node ref="J3" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="OUT_6" pintype="power_out"/>
+    </net>
+    <net code="10" name="/OUT3" class="Default">
+      <node ref="J4" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="OUT_6" pintype="power_out"/>
+    </net>
+    <net code="11" name="/OUT4" class="Default">
+      <node ref="J5" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="OUT_6" pintype="power_out"/>
+    </net>
+    <net code="12" name="/OUT5" class="Default">
+      <node ref="J6" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="OUT_6" pintype="power_out"/>
+    </net>
+    <net code="13" name="/SEL_LINK" class="Default">
+      <node ref="JP1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="/VIN" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="+_1" pintype="power_out"/>
+      <node ref="U1" pin="3" pinfunction="IN_3" pintype="power_in"/>
+    </net>
+    <net code="15" name="/VSEL" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="OUT_2" pintype="power_out"/>
+      <node ref="U2" pin="1" pinfunction="IN_1" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="EN_3" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="IN_1" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="EN_3" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="IN_1" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="EN_3" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="IN_1" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="EN_3" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="IN_1" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="EN_3" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(U2-~{FAULT}-Pad4)" class="Default">
+      <node ref="U2" pin="4" pinfunction="~{FAULT}_4" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U3-~{FAULT}-Pad4)" class="Default">
+      <node ref="U3" pin="4" pinfunction="~{FAULT}_4" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U4-~{FAULT}-Pad4)" class="Default">
+      <node ref="U4" pin="4" pinfunction="~{FAULT}_4" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U5-~{FAULT}-Pad4)" class="Default">
+      <node ref="U5" pin="4" pinfunction="~{FAULT}_4" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U6-~{FAULT}-Pad4)" class="Default">
+      <node ref="U6" pin="4" pinfunction="~{FAULT}_4" pintype="open_collector+no_connect"/>
+    </net>
+  </nets>
+</export>

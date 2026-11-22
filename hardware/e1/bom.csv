@@ -1,0 +1,30 @@
+Reference,Value,Part or specification,Footprint
+J1,LAB INPUT,Samtec TSW-102-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+U1,LD1117V,LD1117V,Package_TO_SOT_THT:TO-220-3_Vertical
+C1,1 µF / 25 V,C0805C105K3RACTU,Capacitor_SMD:C_0805_2012Metric
+C2,22 µF / 16 V,T491C226K016AT,Capacitor_Tantalum_SMD:CP_EIA-6032-28_Kemet-C
+R1,120 Ω,Vishay TNPW0805120RBETA,Resistor_SMD:R_0805_2012Metric
+R2,167 Ω,Vishay TNPW0805167RBETY,Resistor_SMD:R_0805_2012Metric
+R3,140 Ω,Vishay TNPW0805140RBEEN,Resistor_SMD:R_0805_2012Metric
+JP1,4.5 V SELECT,Samtec TSW-102-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+U2,TPS2553DBVR,TPS2553DBVR,Package_TO_SOT_SMD:SOT-23-6
+C3,1 µF / 25 V,C0805C105K3RACTU,Capacitor_SMD:C_0805_2012Metric
+J2,OUT 1,Samtec TSW-102-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+R4,210 kΩ / 1%,Yageo RC0805FR-07210KL,Resistor_SMD:R_0805_2012Metric
+U3,TPS2553DBVR,TPS2553DBVR,Package_TO_SOT_SMD:SOT-23-6
+C4,1 µF / 25 V,C0805C105K3RACTU,Capacitor_SMD:C_0805_2012Metric
+J3,OUT 2,Samtec TSW-102-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+R5,210 kΩ / 1%,Yageo RC0805FR-07210KL,Resistor_SMD:R_0805_2012Metric
+U4,TPS2553DBVR,TPS2553DBVR,Package_TO_SOT_SMD:SOT-23-6
+C5,1 µF / 25 V,C0805C105K3RACTU,Capacitor_SMD:C_0805_2012Metric
+J4,OUT 3,Samtec TSW-102-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+R6,210 kΩ / 1%,Yageo RC0805FR-07210KL,Resistor_SMD:R_0805_2012Metric
+U5,TPS2553DBVR,TPS2553DBVR,Package_TO_SOT_SMD:SOT-23-6
+C6,1 µF / 25 V,C0805C105K3RACTU,Capacitor_SMD:C_0805_2012Metric
+J5,OUT 4,Samtec TSW-102-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+R7,210 kΩ / 1%,Yageo RC0805FR-07210KL,Resistor_SMD:R_0805_2012Metric
+U6,TPS2553DBVR,TPS2553DBVR,Package_TO_SOT_SMD:SOT-23-6
+C7,1 µF / 25 V,C0805C105K3RACTU,Capacitor_SMD:C_0805_2012Metric
+J6,OUT 5,Samtec TSW-102-07-G-S,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+R8,210 kΩ / 1%,Yageo RC0805FR-07210KL,Resistor_SMD:R_0805_2012Metric
+JP1 accessory,Removable shunt,Samtec SNT-100-BK-G,
