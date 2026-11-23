@@ -15,7 +15,9 @@ This diagram describes the V1 goal. The A0 schematic below covers only the DC di
 
 ## Current schematic — E1 low-voltage bench prototype
 
-[Open the editable E1 project, BOM and bench test procedure](hardware/e1/README.md). Unlike A0, E1 takes **6.10 V nominal isolated bench DC**, regulates it to a shared 3.0 or 4.5 V, and limits current independently on five outputs. No mains input or independent overvoltage cutoff. Schematic only; not build-qualified.
+[Open the editable E1 project, BOM and bench test procedure](hardware/e1/README.md). Unlike A0, E1 takes **6.10 V nominal isolated bench DC**, regulates it to a shared 3.0 or 4.5 V, and limits current independently on five outputs. No mains input or independent overvoltage cutoff. [Editable two-layer bench PCB and DRC report](hardware/e1/board/README.md). Unbuilt; not a flush-box layout or manufacturing release.
+
+![E1 bench PCB front copper and silkscreen](hardware/e1/board/front.svg)
 
 ![E1 schematic: regulator and five current-limited outputs](hardware/e1/preview/e1.svg)
 

@@ -1,6 +1,6 @@
 # E1 — five-output isolated-DC bench supply
 
-Open **[e1.kicad_pro](e1.kicad_pro)** in KiCad 10 and edit **[e1.kicad_sch](e1.kicad_sch)**. [KiCad plot (SVG)](preview/e1.svg) · [PNG](preview/e1.png) · [BOM with orderable parts](bom.csv) · [ERC](erc.rpt) · [electrical netlist](e1.xml). This is an unbuilt low-voltage schematic, not a PCB or a mains supply. Use an **external isolated current-limited lab supply**. No AC input, reverse-polarity protection, independent output overvoltage cutoff, or automatic voltage identification exists here.
+Open **[e1.kicad_pro](e1.kicad_pro)** in KiCad 10 and edit **[e1.kicad_sch](e1.kicad_sch)**. [KiCad plot (SVG)](preview/e1.svg) · [PNG](preview/e1.png) · [BOM with orderable parts](bom.csv) · [ERC](erc.rpt) · [electrical netlist](e1.xml). The [routed bench PCB, views and layout checks](board/README.md) accompany this schematic. Neither is a mains design. Use an **external isolated current-limited lab supply**. No AC input, reverse-polarity protection, independent output overvoltage cutoff, or automatic voltage identification exists here.
 
 ## Operating contract
 
@@ -58,7 +58,7 @@ J1 is drawn as an externally driven supply connector (both pins drive their resp
 
 ## Verification and portability
 
-KiCad CLI **10.0.8** loaded the schematic, exported the SVG and XML, and reported **0 errors / 0 warnings** with the local project and libraries. The isolated runtime also printed a missing API-schema startup diagnostic; the schematic commands themselves produced their outputs. The SVG was rasterized and inspected: all five stages, divider, connector labels and title block fit the A3 page. `check_nets.py` checked 28 placed parts, 77 pins, 15 named nets and five NCs against the drawn wiring, then independently compared the KiCad XML net memberships to the same intent. No PCB, DRC, physical measurements, safety approval or enclosure qualification is claimed.
+KiCad CLI **10.0.8** loaded the schematic, exported the SVG and XML, and reported **0 errors / 0 warnings** with the local project and libraries. The isolated runtime also printed a missing API-schema startup diagnostic; the schematic commands themselves produced their outputs. The SVG was rasterized and inspected: all five stages, divider, connector labels and title block fit the A3 page. `check_nets.py` checked 28 placed parts, 77 pins, 15 named nets and five NCs against the drawn wiring, then independently compared the KiCad XML net memberships to the same intent. For PCB design-rule checks, see the board report linked above. No hardware measurements, safety approval or enclosure qualification are claimed.
 
 From this folder, without regenerating the design:
 
