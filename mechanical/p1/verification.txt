@@ -1,0 +1,16 @@
+base: valid single STEP solid; closed oriented STL, 5084 triangles; extents [60.  78.   8.2] mm; volume delta 0.0030%
+lid: valid single STEP solid; closed oriented STL, 6636 triangles; extents [60.   78.    8.85] mm; volume delta 0.0022%
+Source STEP SHA256 1145480478ae2fc8be740474f57f734a951be968e47805cecbe825c689199aae; 30 fitted references, 37 solids including substrate; JP1/2 copper only.
+Substrate faces at Z5.0000 and 6.5162; component mounting plane Z6.6000.
+J1 header bounds [11.    15.    11.225 16.175  6.601  9.561]
+J2 header bounds [-12.      0.     11.225  16.175   6.601   9.561]
+J1: 10 mm extraction / vertical jaw envelope clear; jacket mouth 5.20, grip 3.70 mm sampled on both halves.
+J2: 10 mm extraction / vertical jaw envelope clear; jacket mouth 7.20, grip 5.70 mm sampled on both halves.
+All nominal shell/content pairs clear (<1e-5 mm3); swept PCBA + plug bounding boxes clear base/lid through 20 mm Z and +/-0.55 XY, +0.6338 lift. Four Ø4.8 driver columns clear.
+locator/side (+0.2 outline, 0.2 inward face): 0.25 mm residual
+lift (+0.15 board relative to nominal 1.6, 0.30 seat/stop): 0.10 mm residual
+roof over tallest package (+lift and 0.55 stack): 1.79 mm residual
+service stroke to clamp (10 withdrawal + 0.55 travel + 0.5 error): 10.75 mm residual
+screw tip reserve (0.5 combined error): 0.90 mm residual
+driver radial reserve (0.15 radial error): 0.10 mm residual
+PASS: CAD only. Jackets intentionally interfere; retention, real tooling, crimp geometry, fit and temperatures not tested.

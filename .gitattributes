@@ -3,3 +3,11 @@
 /hardware/e1/preview/e1.svg -text -whitespace
 /hardware/e1/board/*.svg -text -whitespace
 /hardware/e1/bom.csv text eol=lf
+# Keep checked and hashed CAD/CAM exports byte-for-byte.
+/hardware/p1/**/*.svg -text -whitespace
+/hardware/p1/**/*.step -text -whitespace
+/hardware/p1/*.csv -text -whitespace
+/mechanical/p1/*.svg -text -whitespace
+/mechanical/p1/*.step -text -whitespace
+/manufacturing/p1-candidate/*.svg -text -whitespace
+/manufacturing/p1-candidate/*.csv -text -whitespace

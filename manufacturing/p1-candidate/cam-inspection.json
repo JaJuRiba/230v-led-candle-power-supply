@@ -1,0 +1,101 @@
+{
+  "copper": {
+    "p1-F_Cu.gtl": {
+      "saved_to_refill": {
+        "flashes_equal": true,
+        "strokes_equal": true,
+        "macros_equal": true,
+        "region_paths_equal": true,
+        "changed_saved_regions": 0,
+        "region_area_delta_mm2": 0.0
+      },
+      "refill_to_next": {
+        "flashes_equal": true,
+        "strokes_equal": true,
+        "macros_equal": true,
+        "region_paths_equal": true,
+        "changed_saved_regions": 0,
+        "region_area_delta_mm2": 0.0
+      }
+    },
+    "p1-In1_Cu.g1": {
+      "saved_to_refill": {
+        "flashes_equal": true,
+        "strokes_equal": true,
+        "macros_equal": true,
+        "region_paths_equal": true,
+        "changed_saved_regions": 0,
+        "region_area_delta_mm2": 0.0
+      },
+      "refill_to_next": {
+        "flashes_equal": true,
+        "strokes_equal": true,
+        "macros_equal": true,
+        "region_paths_equal": true,
+        "changed_saved_regions": 0,
+        "region_area_delta_mm2": 0.0
+      }
+    },
+    "p1-In2_Cu.g2": {
+      "saved_to_refill": {
+        "flashes_equal": true,
+        "strokes_equal": true,
+        "macros_equal": true,
+        "region_paths_equal": true,
+        "changed_saved_regions": 0,
+        "region_area_delta_mm2": 0.0
+      },
+      "refill_to_next": {
+        "flashes_equal": true,
+        "strokes_equal": true,
+        "macros_equal": true,
+        "region_paths_equal": true,
+        "changed_saved_regions": 0,
+        "region_area_delta_mm2": 0.0
+      }
+    },
+    "p1-B_Cu.gbl": {
+      "saved_to_refill": {
+        "flashes_equal": true,
+        "strokes_equal": true,
+        "macros_equal": true,
+        "region_paths_equal": true,
+        "changed_saved_regions": 0,
+        "region_area_delta_mm2": 0.0
+      },
+      "refill_to_next": {
+        "flashes_equal": true,
+        "strokes_equal": true,
+        "macros_equal": true,
+        "region_paths_equal": true,
+        "changed_saved_regions": 0,
+        "region_area_delta_mm2": 0.0
+      }
+    }
+  },
+  "outline_mm": [
+    [
+      100,
+      -80
+    ],
+    [
+      138,
+      -80
+    ],
+    [
+      138,
+      -114
+    ],
+    [
+      100,
+      -114
+    ]
+  ],
+  "via_drills": 78,
+  "npth": 0,
+  "mask_openings": 105,
+  "paste_openings": 104,
+  "jumper_lands_without_paste": 4,
+  "header_signal_lands": 12,
+  "header_mount_lands": 4
+}

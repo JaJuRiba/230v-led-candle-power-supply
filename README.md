@@ -13,7 +13,17 @@ flowchart LR
 
 This diagram describes the V1 goal. The A0 schematic below covers only the DC distributor.
 
-## Current schematic — E1 low-voltage bench prototype
+## P1 — enclosed low-voltage controller, first-article candidate
+
+P1 uses an **external isolated regulated 6 V supply**. The printed standalone enclosure is not a flush-mount mains enclosure. The [P1 electronics](hardware/p1/README.md) supersede the E1 bench board as the first-article target. No production qualification, regulatory approval or order is claimed.
+
+- [JLCPCB candidate files and order checks](manufacturing/p1-candidate/README.md) · [sourcing evidence](manufacturing/p1-sourcing/README.md)
+- [Enclosure: assembly, H2D print files and clearances](mechanical/p1/README.md) · [separate cable harness](docs/p1-harness.md)
+- [Design assumptions](docs/p1-design-contract.md) · [physical acceptance tests](manufacturing/p1-tools/acceptance.md)
+
+![P1 enclosure exploded assembly](mechanical/p1/exploded.svg)
+
+## E1 — earlier low-voltage bench prototype
 
 [Open the editable E1 project, BOM and bench test procedure](hardware/e1/README.md). Unlike A0, E1 takes **6.10 V nominal isolated bench DC**, regulates it to a shared 3.0 or 4.5 V, and limits current independently on five outputs. No mains input or independent overvoltage cutoff. [Editable two-layer bench PCB and DRC report](hardware/e1/board/README.md). Unbuilt; not a flush-box layout or manufacturing release.
 
